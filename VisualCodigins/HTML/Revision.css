@@ -1,0 +1,43 @@
+html,bxody {
+
+
+    display: flex;
+    justify-content: center;
+align-items: center;
+min-height: 95vh;
+max-height: 900px;
+}
+body {
+/*Body é o Corpo Do código,tudo q vc por vai ser o fundo*/
+/*Se você quer fazer algo mais bonito,uma diferenciação na cor,Você coloca o LINEAR-GRADIENT , dando a direção(da direita pra esquerda,de cima pra baixo fodasi tlgd*, E logo depois
+voce coloca  as Cores, e Não se limitas a duas cores,pode mser mais*/
+/*Comandos de Background*/
+/*URL é como se fosse o endereço de algo,vc precisa dele pra chegar até o elemento*/
+/*IMPORTANTE!!!!!!!!!!!!!!!
+quando vc utiliza o " .. ".é como se vc tivesse saindo de 2 diretorios : " .. "
+
+*/
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(../imagens/AIMESSI.png);
+
+/*background:linear-gradient(to right , red, blue,yellow,black,white);
+background-color: aqua; /*São a msm coisa,tanto o background e o background Color*/
+}
+
+h1 {
+
+background:red ; /* Esse comando muda a cor da Barra inteira chamada H1,não só a letra*/
+color: yellow; /* Esse comando é responsável pela troca de cor da escrita*/
+width: 300px; /*Com esse comando,vc aumenta o Comprimento da caixa azul q eu tinha mostrado antes */
+height: 150px; /*Com esse,Você modifica a Altura da caixa azul*/
+margin: 50px;
+
+} 
+/*Essa Barra Amarela é Chamada de MARGIN (Margem),ela é utilizada pra separar o elemento de outros caso estejam em uma coluna*/
+
+/* 
+Quando vc tem um elemento padrão( h1,div,a,img e etc),vc coloca o nome puro, sem . pois o  . é pra criação de classes que são atribuidas para isso
+
+
+*/
