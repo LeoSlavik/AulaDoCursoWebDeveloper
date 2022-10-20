@@ -1,0 +1,86 @@
+.video {
+position: fixed; 
+right: 0; 
+bottom: 0;
+min-width: 100%; 
+min-height: 100%;
+width: auto; 
+height: auto; 
+z-index: -1000;
+background-size: cover; 
+}
+html,body 
+{
+min-height: 95vh; 
+max-height: 900px;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 95vh;
+max-height: 900px;
+}
+
+.Logo {
+width: 350px;
+height: 80px;
+
+}
+a{
+text-decoration: none;
+}
+::placeholder {
+
+    color: greenyellow;
+}
+button:disabled {
+    opacity: .4;
+    cursor: default;
+  }
+button:hover {
+    font-size: 40px;
+    color: red;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imagens/ASDSADASDAS-removebg-preview.png);
+transition-duration: 1s;
+width: 100x;
+height: 150px;
+margin-left: 120px;
+}
+button {
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    background: green;
+    height: 50px;
+    width: 150px;
+margin-left: 115px;
+
+}
+input {
+    border-color: green;
+    font-size: 15px;
+    color: greenyellow;
+    background: transparent;
+ height: 20px;
+    border-radius: 50px;
+    width: 300px;
+    margin-left: 40px;
+ margin-top: 30px;
+    display: table;
+    height: 25px;
+}
+img {
+    width: 350px;
+height: 100px;
+margin-left: 20px;
+
+}
+.card {
+
+    background-image:url(../imagens/FundoProMilica.png);
+width: 400px;
+height: 500px;
+
+}

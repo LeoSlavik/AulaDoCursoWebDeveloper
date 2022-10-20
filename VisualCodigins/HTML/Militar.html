@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+
+
+function toggleButton() {
+  const username = document.querySelector('#username').value;
+  const password = document.querySelector('#password').value;
+
+  if (username && password) {
+    document.querySelector('#login').disabled = false;
+    return
+  }
+  document.querySelector('#login').disabled = true;
+}
+    </script>
+            <link rel="stylesheet" href="Militar.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bullet Oportunity</title>
+</head>
+<body>
+    <video preload="" poster="../imagens/bandeirareal.png" autoplay loop muted class="video">
+        <source src="../HTML/Videos/F.E colando.mp4" type="video/mp4">
+    </video>
+
+ 
+<div class="card" >
+    <img class="Logo" src="../imagens/Tirar_fundo-removebg-preview.png" alt="">
+<img src="../imagens/../imagens/Arma_De_Logo-removebg-preview.png" alt="">
+<form class="container">
+    <input type="email" name="username" id="username" placeholder="E-mail" onchange="toggleButton()">
+    <input type="password" name="password" id="password" placeholder="Senha" onchange="toggleButton()">
+    <button id="login" disabled>Entrar</button>
+  </form>
+</div>
+</body>
+</html>
